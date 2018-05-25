@@ -23,9 +23,9 @@ angular.module('app', ['ngRoute','7minworkout', 'ngMaterial', 'ngMessages'])
 	// 	'http://*.youtube.com/**'
 	// ]);
 
-	$locationProvider.html5Mode({
-		enabled: true,
-		requireBase: false
-	});
+	// $locationProvider.html5Mode({
+	// 	enabled: true,
+	// 	requireBase: false
+	// });
 });
 angular.module('7minworkout', []);
